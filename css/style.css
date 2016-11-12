@@ -1,0 +1,8 @@
+/*Dotted & warna background di sekitar biarin dulu, besuk kalau udah jadi di hapus*/
+.row{
+	margin-right:-15px;
+	margin-left:-15px;
+	background-color: cyan;
+	border-style: dotted;
+	border-color: black;
+}
