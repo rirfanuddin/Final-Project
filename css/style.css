@@ -1,8 +1,70 @@
-/*Dotted & warna background di sekitar biarin dulu, besuk kalau udah jadi di hapus*/
 .row{
 	margin-right:-15px;
 	margin-left:-15px;
-	background-color: cyan;
-	border-style: dotted;
-	border-color: black;
+}
+body{
+	position: relative; 
+}
+.affix{
+	top:0;
+	width: 100%;
+	z-index: 9999 !important;
+}
+.navbar{
+	margin-bottom: 0px;
+	background-color: #ffffff;
+	border-color: #33ff8c;
+}
+.affix ~ .container-fluid{
+	position: relative;
+	top: 50px;
+}
+#layanan{
+	padding-top:50px;
+	height:500px;
+	color: #fff;
+	background-color: #1E88E5;
+}
+#tim-kami{
+	padding-top:50px;
+	height:500px;
+	color: #fff;
+	background-color: red;
+}
+#galeri{
+	padding-top:50px;
+	height:500px;
+	color: #fff;
+	background-color: #ff9800;
+}
+#testimoni{
+	padding-top:50px;
+	height:500px;
+	color: #fff;
+	background-color: #00bcd4;
+}
+#klien-kami{
+	padding-top:50px;
+	height:500px;
+	color: #fff;
+	background-color: #009688;
+}
+#kontak{
+	padding-top:50px;
+	height:500px;
+	color: #fff;
+	background-color: #33ff8c;
+}
+#footer{
+	padding-top:50px;
+	height:500px;
+	color: grey;
+	background-color: black;
+}
+.navratakanan {
+	float: right;
+}
+.logonavbar {
+	width: 100%;
+	vertical-align: center;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,364 +13,144 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!--NAVBAR-->
-	<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="navbar-header">
-					 
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button> <a class="navbar-brand" href="#">Brand</a>
-				</div>
-				
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#">
+					<img class="logonavbar" alt="Brand" src="images/logo2.png">
+				</a>
+			</div>
+			<div class="navratakanan">
+				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="#">Link</a>
-						</li>
-						<li>
-							<a href="#">Link</a>
-						</li>
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">One more separated link</a>
-								</li>
-							</ul>
-						</li>
+						<li><a href="#">Beranda</a></li>
+						<li><a href="#layanan">Layanan</a></li>
+						<li><a href="#tim-kami">Tim Kami</a></li>
+						<li><a href="#galeri">Galeri</a></li>
+						<li><a href="#testimoni">Testimoni</a></li>
+						<li><a href="#klien-kami">Partners</a></li>
+						<li><a href="#kontak">Kontak</a></li>
 					</ul>
-					<form class="navbar-form navbar-left" role="search">
-						<div class="form-group">
-							<input type="text" class="form-control">
-						</div> 
-						<button type="submit" class="btn btn-default">
-							Submit
-						</button>
-					</form>
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="#">Link</a>
-						</li>
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	</div>
-	</div>
-
-	<!--CAROUSEL-->
-		<div class="carousel slide" id="carousel-120809">
-			<ol class="carousel-indicators">
-				<li class="active" data-slide-to="0" data-target="#carousel-120809">
-				</li>
-				<li data-slide-to="1" data-target="#carousel-120809">
-				</li>
-				<li data-slide-to="2" data-target="#carousel-120809">
-				</li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="item next left">
-					<img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg">
-					<div class="carousel-caption">
-						<h4>
-							First Thumbnail label
-						</h4>
-						<p>
-							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-						</p>
-					</div>
-				</div>
-				<div class="item">
-					<img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg">
-					<div class="carousel-caption">
-						<h4>
-							Second Thumbnail label
-						</h4>
-						<p>
-							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-						</p>
-					</div>
-				</div>
-				<div class="item active left">
-					<img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg">
-					<div class="carousel-caption">
-						<h4>
-							Third Thumbnail label
-						</h4>
-						<p>
-							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-						</p>
-					</div>
-				</div>
-			</div> <a class="left carousel-control" href="#carousel-120809" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-120809" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-			</div>
-
-
-
-<!--SERVICES-->
-	<div class="row">
-	<div class="col-md-6">
-		<h3>
-			SERVICES
-		</h3>
-	</div>
-	<div class="col-md-6">
-		<p>
-			Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-		</p>
-	</div>
-	</div>
-	<div class="row">
-	<div class="col-md-4">
-		<dl>
-			<dt>
-				Description lists
-			</dt>
-			<dd>
-				A description list is perfect for defining terms.
-			</dd>
-			<dt>
-				Euismod
-			</dt>
-			<dd>
-				Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-			</dd>
-			<dd>
-				Donec id elit non mi porta gravida at eget metus.
-			</dd>
-			<dt>
-				Malesuada porta
-			</dt>
-			<dd>
-				Etiam porta sem malesuada magna mollis euismod.
-			</dd>
-			<dt>
-				Felis euismod semper eget lacinia
-			</dt>
-			<dd>
-				Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-			</dd>
-		</dl>
-	</div>
-	<div class="col-md-4">
-		<dl>
-			<dt>
-				Description lists
-			</dt>
-			<dd>
-				A description list is perfect for defining terms.
-			</dd>
-			<dt>
-				Euismod
-			</dt>
-			<dd>
-				Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-			</dd>
-			<dd>
-				Donec id elit non mi porta gravida at eget metus.
-			</dd>
-			<dt>
-				Malesuada porta
-			</dt>
-			<dd>
-				Etiam porta sem malesuada magna mollis euismod.
-			</dd>
-			<dt>
-				Felis euismod semper eget lacinia
-			</dt>
-			<dd>
-				Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-			</dd>
-		</dl>
-	</div>
-	<div class="col-md-4">
-		<dl>
-			<dt>
-				Description lists
-			</dt>
-			<dd>
-				A description list is perfect for defining terms.
-			</dd>
-			<dt>
-				Euismod
-			</dt>
-			<dd>
-				Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-			</dd>
-			<dd>
-				Donec id elit non mi porta gravida at eget metus.
-			</dd>
-			<dt>
-				Malesuada porta
-			</dt>
-			<dd>
-				Etiam porta sem malesuada magna mollis euismod.
-			</dd>
-			<dt>
-				Felis euismod semper eget lacinia
-			</dt>
-			<dd>
-				Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-			</dd>
-		</dl>
-	</div>
-	</div>
-
-
-
-	<!--OUR TEAM-->
-	<div class="row">
-	<div class="col-md-6">
-		<h3>
-			OUR TEAM
-		</h3>
-	</div>
-	<div class="col-md-6">
-		<p>
-			Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-		</p>
-	</div>
-	</div>
-	<div class="row">
-	<div class="col-md-12">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="thumbnail">
-					<img alt="Bootstrap Thumbnail First" src="http://lorempixel.com/output/people-q-c-600-200-1.jpg">
-					<div class="caption">
-						<h3>
-							Thumbnail label
-						</h3>
-						<p>
-							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-						</p>
-						<p>
-							<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="thumbnail">
-					<img alt="Bootstrap Thumbnail Second" src="http://lorempixel.com/output/city-q-c-600-200-1.jpg">
-					<div class="caption">
-						<h3>
-							Thumbnail label
-						</h3>
-						<p>
-							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-						</p>
-						<p>
-							<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="thumbnail">
-					<img alt="Bootstrap Thumbnail Third" src="http://lorempixel.com/output/sports-q-c-600-200-1.jpg">
-					<div class="caption">
-						<h3>
-							Thumbnail label
-						</h3>
-						<p>
-							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-						</p>
-						<p>
-							<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-						</p>
-					</div>
 				</div>
 			</div>
 		</div>
+	</nav>  
 
-
-		<!--PORTFOLIO-->
-		<div class="row">
-			<div class="col-md-6">
-				<h3>
-					PORTFOLIO
-				</h3>
+<!--SLIDER-->
+	<div class="carousel slide" id="carousel-120809">
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#carousel-120809"></li>
+			<li data-slide-to="1" data-target="#carousel-120809"></li>
+			<li data-slide-to="2" data-target="#carousel-120809"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item next left">
+				<img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg">
+				<div class="carousel-caption">
+					<h2>
+						Digital in Infinity
+					</h2>
+					<p>
+						Solusi cerdas, ditilasisasi
+					</p>
+				</div>
 			</div>
-			<div class="col-md-6">
-				<ul class="nav nav-tabs">
-					<li class="active">
+			<div class="item">
+				<img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg">
+				<div class="carousel-caption">
+					<h2>
+						Material Design
+					</h2>
+					<p>
+						Menggunakan Bootstrap versi terbaru dan HTML 5.
+					</p>
+				</div>
+			</div>
+			<div class="item active left">
+				<img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg">
+				<div class="carousel-caption">
+					<h2>
+						Ciptakan Pengalaman Memiliki Web yang Luar Biasa
+					</h2>
+					<p>
+						Pilihan yang sangat tepat untuk proyek web design. 
+					</p>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#carousel-120809" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#carousel-120809" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div>
+
+<!--LAYANAN-->
+	<div id="layanan" class="container-fluid row">
+		<div class="col-md-6">
+			<h3>SERVICES</h3>
+		</div>
+		<div class="col-md-6">
+			<p>
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+	</div>
+	
+<!--TIM KAMI-->
+	<div id="tim-kami" class="container-fluid row">
+		<div class="col-md-6">
+			<h3>OUR TEAM</h3>
+		</div>
+		<div class="col-md-6">
+			<p>
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+	</div>
+	
+	<!--<div class="thumbnail">
+		<img alt="Bootstrap Thumbnail First" src="http://lorempixel.com/output/people-q-c-600-200-1.jpg">
+		<div class="caption">
+			<h3>
+				Thumbnail label
+			</h3>
+			<p>
+				Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+			</p>
+			<p>
+				<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+			</p>
+		</div>
+	</div>-->
+
+<!--GALERI-->
+	<div id="galeri" class="container-fluid row">
+		<div class="col-md-6">
+			<h3>PORTFOLIO</h3>
+		</div>
+		<div class="col-md-6">
+			<ul class="nav nav-tabs">
+				<li class="active">
 						<a href="#">Home</a>
-					</li>
-					<li>
+				</li>
+				<li>
 						<a href="#">Profile</a>
-					</li>
-					<li class="disabled">
+				</li>
+				<li class="disabled">
 						<a href="#">Messages</a>
-					</li>
-					<li class="dropdown pull-right">
-						 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<strong class="caret"></strong></a>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="#">Action</a>
-							</li>
-							<li>
-								<a href="#">Another action</a>
-							</li>
-							<li>
-								<a href="#">Something else here</a>
-							</li>
-							<li class="divider">
-							</li>
-							<li>
-								<a href="#">Separated link</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div><img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/"><img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
-	</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 
-
-	<!--TESTIMONI-->
-	<div class="row">
+<!--TESTIMONI-->
+	<div id="testimoni" class="container-fluid row">
 	<div class="col-md-6">
 		<h3>
 			TESTIMONI
@@ -420,37 +200,36 @@
 						</p>
 					</div>
 				</div>
-			</div> <a class="left carousel-control" href="#carousel-823863" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-823863" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+			<a class="left carousel-control" href="#carousel-823863" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#carousel-823863" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 		</div>
 	</div>
 	</div>
 
-	<!--OUR CLIENTS-->
-	<div class="row">
-	<div class="col-md-12">
-		<h2>OUR CLIENTS</h2>
-		<div class="row">
-			<div class="col-md-3">
-				<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
-			</div>
-			<div class="col-md-3">
-				<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
-			</div>
-			<div class="col-md-3">
-				<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
-			</div>
-			<div class="col-md-3">
-				<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
+<!--KLIEN KAMI-->
+	<div id="klien-kami" class="container-fluid row">
+		<div class="col-md-12">
+			<h2>OUR CLIENTS</h2>
+			<div class="row">
+				<div class="col-md-3">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
+				</div>
+				<div class="col-md-3">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
+				</div>
+				<div class="col-md-3">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
+				</div>
+				<div class="col-md-3">
+					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
+				</div>
 			</div>
 		</div>
 	</div>
-	</div>
 
-
-
-
-	<!--CONTACTS-->
-	<div class="row">
+<!--KONTAK-->
+	<div id="kontak" class="container-fluid row">
 	<div class="col-md-6">
 		<h2>
 			CONTACTS
@@ -504,105 +283,18 @@
 	</div>
 	</div>
 
-
-
-
-	<!--FOOTER-->
-	<div class="row">
+<!--FOOTER-->
+	<div id="footer" class="container-fluid row">
 	<div class="col-md-12">
 		<div class="row">
 			<div class="col-md-3">
-				<dl>
-					<dt>
-						Description lists
-					</dt>
-					<dd>
-						A description list is perfect for defining terms.
-					</dd>
-					<dt>
-						Euismod
-					</dt>
-					<dd>
-						Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-					</dd>
-					<dd>
-						Donec id elit non mi porta gravida at eget metus.
-					</dd>
-					<dt>
-						Malesuada porta
-					</dt>
-					<dd>
-						Etiam porta sem malesuada magna mollis euismod.
-					</dd>
-					<dt>
-						Felis euismod semper eget lacinia
-					</dt>
-					<dd>
-						Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-					</dd>
-				</dl>
+				xxx
 			</div>
 			<div class="col-md-3">
-				<dl>
-					<dt>
-						Description lists
-					</dt>
-					<dd>
-						A description list is perfect for defining terms.
-					</dd>
-					<dt>
-						Euismod
-					</dt>
-					<dd>
-						Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-					</dd>
-					<dd>
-						Donec id elit non mi porta gravida at eget metus.
-					</dd>
-					<dt>
-						Malesuada porta
-					</dt>
-					<dd>
-						Etiam porta sem malesuada magna mollis euismod.
-					</dd>
-					<dt>
-						Felis euismod semper eget lacinia
-					</dt>
-					<dd>
-						Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-					</dd>
-				</dl>
+				xxx
 			</div>
 			<div class="col-md-3">
-				<dl>
-					<dt>
-						Description lists
-					</dt>
-					<dd>
-						A description list is perfect for defining terms.
-					</dd>
-					<dt>
-						Euismod
-					</dt>
-					<dd>
-						Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-					</dd>
-					<dd>
-						Donec id elit non mi porta gravida at eget metus.
-					</dd>
-					<dt>
-						Malesuada porta
-					</dt>
-					<dd>
-						Etiam porta sem malesuada magna mollis euismod.
-					</dd>
-					<dt>
-						Felis euismod semper eget lacinia
-					</dt>
-					<dd>
-						Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-					</dd>
-				</dl>
+				xxx
 			</div>
 			<div class="col-md-3">
 				 
@@ -611,7 +303,6 @@
 				</address>
 			</div>
 		</div>
-	</div>
 	</div>
 	</div>
 
