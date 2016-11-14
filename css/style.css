@@ -24,7 +24,7 @@ body{
   padding-top:0px;
 }
 #layanan{
-	padding-top:50px;
+	padding-top:100px 0;
 	height:500px;
 	color: #fff;
 	background-color: #1E88E5;
@@ -201,8 +201,28 @@ body{
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
+.judul-bg {
+  display: inline;
+  font-size: 115px;
+  font-weight: 800;
+  height: 100%;
+  left: -173px;
+  opacity: 0.1;
+  position: absolute;
+  top: -14px;
+  width: 100%;
+  text-align: center;
+  color: red;
+}
+.judul {
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  text-transform: capitalize;
+  top: 26px;
+}
 
-<!--SLIDER DARI BOOTSTRAP-MIN-CSS DIPINDAH DISINI-->
+/*SLIDER DARI BOOTSTRAP-MIN-CSS DIPINDAH DISINI*/
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
