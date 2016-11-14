@@ -221,7 +221,10 @@ body{
   text-transform: capitalize;
   top: 26px;
 }
-
+.imgclient {
+  width: 70%;
+  padding-top: 180px;
+}
 /*SLIDER DARI BOOTSTRAP-MIN-CSS DIPINDAH DISINI*/
 
 .carousel-inner>.item>a>img,
