@@ -18,13 +18,13 @@ body{
 }
 .affix ~ .container-fluid{
 	position: relative;
-	top: 50px;
+	top: 0px;
 }
 #beranda{
   padding-top:0px;
 }
 #layanan{
-	padding-top:100px 0;
+	padding-top:0 100px;
 	height:500px;
 	color: #fff;
 	background-color: #1E88E5;
@@ -43,7 +43,7 @@ body{
 }
 #testimoni{
 	padding-top:50px;
-	height:500px;
+	height:300px;
 	color: #fff;
 	background-color: #00bcd4;
 }
@@ -225,6 +225,72 @@ body{
   width: 70%;
   padding-top: 180px;
 }
+.batasatas {
+  margin-top: 100px;
+}
+.poinlayanan {
+  margin: 25px 0;
+}
+
+.poinlayanan i {
+  font-size: 55px;
+  padding-right: 15px;
+}
+
+.poinlayanan h2 {
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.poinlayanan:hover {
+  cursor: pointer;
+}
+
+.poinlayanan:hover .pulse-shrink {
+  -webkit-animation-name: pulse-shrink;
+  animation-name: pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.poinlayanan:hover h2 {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+/* Pulse Shrink Efek*/
+@-webkit-keyframes pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.pulse-shrink {
+  display: inline-block;
+}
+.judullayanan {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+
+
 /*SLIDER DARI BOOTSTRAP-MIN-CSS DIPINDAH DISINI*/
 
 .carousel-inner>.item>a>img,
