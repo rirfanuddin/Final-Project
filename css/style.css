@@ -31,7 +31,7 @@ body{
 }
 #tim-kami{
 	padding-top:50px;
-	height:500px;
+	height:600px;
 	color: #fff;
 	background-color: red;
 }
@@ -228,25 +228,25 @@ body{
 .batasatas {
   margin-top: 100px;
 }
-.poinlayanan {
+.poin {
   margin: 25px 0;
 }
 
-.poinlayanan i {
+.poin i {
   font-size: 55px;
   padding-right: 15px;
 }
 
-.poinlayanan h2 {
+.poin h2 {
   margin-top: 0;
   text-transform: capitalize;
 }
 
-.poinlayanan:hover {
+.poin:hover {
   cursor: pointer;
 }
 
-.poinlayanan:hover .pulse-shrink {
+.poin:hover .pulse-shrink {
   -webkit-animation-name: pulse-shrink;
   animation-name: pulse-shrink;
   -webkit-animation-duration: 0.3s;
@@ -259,7 +259,7 @@ body{
   animation-direction: alternate;
 }
 
-.poinlayanan:hover h2 {
+.poin:hover h2 {
   opacity: 0.8;
   transition: all 0.3s ease-in-out;
 }
@@ -289,6 +289,12 @@ body{
 table{
   border-color: green;
   padding-top:"20 px"
+}
+.fototimkami{
+  width: 60%;
+}
+.batasatastim {
+  margin-top: 30px;
 }
 
 
