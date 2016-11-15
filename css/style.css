@@ -286,7 +286,10 @@ body{
   font-size: 20px;
   font-weight: 700;
 }
-
+table{
+  border-color: green;
+  padding-top:"20 px"
+}
 
 
 
