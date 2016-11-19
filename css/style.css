@@ -1,78 +1,78 @@
 @charset "UTF-8";
 .row{
-	margin-right:-15px;
-	margin-left:-15px;
+  margin-right:-15px;
+  margin-left:-15px;
 }
 body{
-	position: relative;
+  position: relative;
 }
 .affix{
-	top:0;
-	width: 100%;
-	z-index: 9999 !important;
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
 }
 .navbar{
-	margin-bottom: 0px;
-	background-color: #f9c100;
+  margin-bottom: 0px;
+  background-color: #f9c100;
   border: none;
 }
 .affix ~ .container-fluid{
-	position: relative;
-	top: 0px;
+  position: relative;
+  top: 0px;
 }
 #beranda{
   padding-top:0px;
 }
 #layanan{
-	padding-top:0 100px;
-	height:500px;
-	color: #fff;
-	background-color: #212121;
+  padding-top:0 100px;
+  height:500px;
+  color: #fff;
+  background-color: #212121;
 }
 #tim-kami{
-	padding-top:50px;
-	height:600px;
-	color: #fff;
-	background-color: #212121;
+  padding-top:50px;
+  height:600px;
+  color: #fff;
+  background-color: #212121;
 }
 #galeri{
-	padding-top:50px;
-	height:500px;
-	color: #fff;
-	background-color: #212121;
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  background-color: #212121;
 }
 #testimoni{
-	padding-top:50px;
-	height:300px;
-	color: #fff;
-	background-color: #212121;
+  padding-top:50px;
+  height:300px;
+  color: #fff;
+  background-color: #212121;
 }
 #klien-kami{
-	padding-top:50px;
-	height:500px;
-	color: #fff;
+  padding-top:50px;
+  height:500px;
+  color: #fff;
 }
 #kontak{
-	padding-top:50px;
-	height:500px;
-	color: #fff;
-	background-color: #212121;
+  padding-top:50px;
+  height:300px;
+  color: #fff;
+  background-color: #212121;
 }
 #footer{
-	padding-top:50px;
-	height:500px;
-	color: grey;
-	background-color: black;
+  padding-top:50px;
+  height:375px;
+  color: grey;
+  background-color: black;
 }
 .navratakanan {
-	float: right;
+  float: right;
 }
 .logonavbar {
-	width: 100%;
-	vertical-align: center;
+  width: 100%;
+  vertical-align: center;
 }
 .animasi:first-child{
-	visibility: hidden;
+  visibility: hidden;
 }
 
 <!--SLIDE IN RIGHT EFEK-->
@@ -204,6 +204,7 @@ body{
   display: inline;
   font-size: 115px;
   font-weight: 800;
+  font-family: 'Bitter', serif;
   height: 100%;
   left: -173px;
   opacity: 0.1;
@@ -219,6 +220,7 @@ body{
   position: absolute;
   text-transform: capitalize;
   top: 26px;
+  font-family: 'Bitter', serif;
 }
 .imgclient {
   width: 70%;
@@ -285,10 +287,6 @@ body{
   font-size: 20px;
   font-weight: 700;
 }
-table{
-  border-color: green;
-  padding-top:"20 px"
-}
 .fototimkami{
   width: 60%;
 }
@@ -309,6 +307,37 @@ table{
 }
 .mer{
   width: 130px;
+}
+tr.hr, td.hr {
+  border-bottom: 2px solid #f9c100;
+}
+.callme{
+  text-align: center;
+}
+.callmekiri{
+  text-align: left;
+}
+.nostyle {
+  width: 100%;
+  border-bottom: none; 
+}
+.nolink{
+  color:white;
+}
+.white{
+  color:white;
+}
+.nolink:hover{
+  color: #f9c100;
+  text-decoration: initial;
+  text-shadow: 1px 1px 1px white;
+}
+.ft {
+  color: #f9c100;
+  font-family: 'Bitter', serif;
+}
+.fttentang {
+  color: white;
 }
 
 
