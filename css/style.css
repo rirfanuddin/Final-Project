@@ -1,9 +1,4 @@
 @charset "UTF-8";
-html {
-  background: url(images/slides-1.png) no-repeat center fixed;
-  background-size: cover;
-  background-attachment:fixed
-}
 .row{
   margin-right:-15px;
   margin-left:-15px;
@@ -30,43 +25,43 @@ body{
 }
 #layanan{
   padding-top:0 100px;
-  height:500px;
+  height:auto;
   color: #fff;
   background-color: #212121;
 }
 #tim-kami{
   padding-top:50px;
-  height:600px;
+  height:auto;
   color: #fff;
   background-color: #212121;
 }
 #galeri{
   padding-top:50px;
-  height:430px;
+  height:500px;
   color: #fff;
   background-color: #212121;
 }
 #testimoni{
   padding-top:50px;
-  height:300px;
+  height:auto
   color: #fff;
   background-color: #212121;
 }
 #klien-kami{
   padding-top:50px;
-  height:500px;
+  height:auto;
   color: #fff;
   background-color: #212121;
 }
 #kontak{
   padding-top:50px;
-  height:450px;
+  height:auto;
   color: #fff;
   background-color: #212121;
 }
 #footer{
   padding-top:50px;
-  height:375px;
+  height:360px;
   color: grey;
   background-color: black;
 }
